@@ -3,7 +3,6 @@ import { Text, StyleSheet, View, Button, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import {
   getCurrentPositionAsync,
-  getForegroundPermissionsAsync,
   getLastKnownPositionAsync,
   requestForegroundPermissionsAsync,
   watchPositionAsync,
